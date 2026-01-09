@@ -1,0 +1,299 @@
+body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-image: url("gambar.jpg/baru.jpg");
+     background-size: cover;
+     background-position: center;
+     color: black;
+     text-align: center;
+}
+
+p {
+     font-size: 18px;
+     margin: 10px auto;
+     max-width: 1000px;
+     text-align: justify;
+}
+
+h1 {
+     font-family: Impact, sans-serif;
+     font-size: 40px;
+     margin: 10px 0;
+}
+
+h3 {
+     color: rgb(2, 0, 132);
+     margin: 10px 0;
+}
+
+/* =====================================================
+   NAVIGATION BAR
+   ===================================================== */
+nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(89, 142, 221);
+     padding: 10px 30px;
+}
+
+nav img {
+     height: 40px;
+}
+
+nav .nav-links {
+     display: flex;
+     gap: 25px;
+}
+
+nav a {
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+nav a:hover {
+     text-decoration: underline;
+}
+
+/* =====================================================
+   HERO / WELCOME PAGE
+   ===================================================== */
+.hero {
+     padding: 40px 20px 10px;
+}
+
+.hero img {
+     width: 180px;
+     margin-bottom: 8px;
+}
+
+.hero h1 {
+     font-size: 42px;
+     margin: 3px 0;
+     opacity: 1;
+}
+
+.hero h4 {
+     font-size: 16px;
+     margin-top: 5px;
+     opacity: 1;
+}
+
+/* =====================================================
+   MENU LINKS (WELCOME PAGE)
+   ===================================================== */
+.menu-links {
+     padding: 5px 0 30px;
+}
+
+.menu-links a {
+     display: inline-block;
+     margin: 5px 8px;
+     opacity: 1;
+}
+
+.menu-links img {
+     width: 150px;
+     transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.menu-links img:hover {
+     transform: scale(1.08);
+     filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+
+/* =====================================================
+   TEXT UTILITIES
+   ===================================================== */
+.text-center {
+     text-align: center;
+}
+
+.text-block {
+     max-width: 800px;
+     margin: 0 auto 20px;
+}
+
+/* =====================================================
+   BIODATA / GENERAL CONTENT
+   ===================================================== */
+.content-block {
+     max-width: 1000px;
+     margin: 20px auto;
+     text-align: justify;
+}
+
+.biodata-img {
+     float: left;
+     width: 350px;
+     height: 470px;
+     margin-right: 15px;
+     border: 3px solid black;
+}
+
+/* =====================================================
+   FLOAT UTILITIES (HOBBY PAGE)
+   ===================================================== */
+.float-left {
+     float: left;
+     margin-right: 20px;
+     margin-bottom: 15px;
+}
+
+.float-right {
+     float: right;
+     margin-left: 20px;
+     margin-bottom: 15px;
+}
+
+.hobby-text {
+     text-align: justify;
+     max-width: 700px;
+     margin: 0 auto;
+}
+
+.hobby-section img {
+     border: 3px solid rgb(2,0,132);
+     border-radius: 5px;
+     float: left;
+     margin-right: 15px;
+}
+
+/* =====================================================
+   GALLERY PAGE
+   ===================================================== */
+.gallery-section {
+     text-align: center;
+     margin: 15px 0;
+}
+
+.gallery-table {
+     width: 350px;
+     border: 2px solid black;
+     margin: 0 auto;
+     border-collapse: collapse;
+     cellspacing: 10px;
+     cellpadding: 10px;
+}
+
+.gallery-table td {
+     padding: 10px;
+     text-align: center;
+}
+
+.gallery {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     flex-wrap: wrap;
+     margin: 20px auto;
+}
+
+.gallery img {
+     width: 325px;
+     height: 325px;
+     object-fit: cover;
+     border: 3px solid rgb(2, 0, 132);
+     border-radius: 5px;
+}
+
+/* =====================================================
+   FAVOURITE THINGS - BORDER & STYLE
+   ===================================================== */
+.intro {
+     text-align: center;
+     margin: 20px 0;
+}
+
+.fav-section {
+     margin: 20px 0;
+}
+
+.fav-images img,
+.fav-media video {
+     border: 3px solid rgb(2,0,132);
+     border-radius: 5px;
+     padding: 3px;
+     object-fit: cover;
+     box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+     transition: transform 0.3s ease;
+}
+
+.fav-images img:hover,
+.fav-media video:hover {
+     transform: scale(1.05);
+}
+
+/* =====================================================
+   EDUCATION PAGE
+   ===================================================== */
+.education-box {
+     max-width: 1000px;
+     margin: 20px auto;
+     padding: 20px;
+     border: 3px solid rgb(2, 0, 132);
+     border-radius: 15px;
+     background-color: rgba(255, 255, 255, 0.8);
+     text-align: justify;
+     font-size: 18px;
+}
+
+.education img {
+     width: 325px;
+     height: 325px;
+     object-fit: cover;
+     border: 3px solid rgb(2, 0, 132);
+     border-radius: 5px;
+     margin: 10px;
+}
+
+/* =====================================================
+   CONTACT PAGE TABLE
+   ===================================================== */
+.contact-table {
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 10px;
+     background-color: rgba(255,255,255,0.85);
+     border-radius: 10px;
+     border: 2px solid rgb(2,0,132);
+}
+
+.contact-table table {
+     width: 100%;
+     border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+     padding: 12px 15px;
+     border: 1px solid rgb(2,0,132);
+     text-align: left;
+     vertical-align: middle;
+}
+
+.contact-table th {
+     font-weight: bold;
+     background-color: rgba(2,0,132,0.1);
+     color: rgb(2,0,132);
+}
+
+.contact-table a {
+     color: rgb(2,0,132);
+     text-decoration: none;
+}
+
+.contact-table a:hover {
+     text-decoration: underline;
+}
+
+/* =====================================================
+   HOVER EFFECTS 
+   ===================================================== */
+.hover-effect:hover {
+     transform: scale(1.05);
+     transition: transform 0.3s ease, filter 0.3s ease;
+     filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+
